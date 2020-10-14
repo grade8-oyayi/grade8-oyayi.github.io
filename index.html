@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRADE 8 OYAYI</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">body {margin: 0px;padding: 0px; overflow: hidden} header, form, div, h1, section, footer,br, p,textarea,input,button {margin: 0px;padding: 0px;} #GAME_AREA {width:100%; height:100%;}</style>
+        <link rel="stylesheet" type="text/css" href="./Client/Stylesheets/i_home.css">
+    </head>
+    <body id="body">
+        <!-- ===== CLIENT ===== -->
+        <script src="./Client/Interface/i_home.js"></script>
+        <script src="./Client/System/jayfunc.js"></script>
+        <script src="./Client/System/jayui.js"></script>
+        <!-- ==================================== -->
+        <div id="MAIN_AREA"></div>
+        <!-- -->
+        <script type="text/javascript">
+            //Set Game Area
+            jayui.main_area = "MAIN_AREA";
+            //Initialize Main Area
+            window.onload = function(){
+                //Now start the initialization
+                i_home.initialize();
+            };
+            
+        </script>
+    </body>
+</html>
